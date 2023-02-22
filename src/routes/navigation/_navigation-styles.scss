@@ -1,0 +1,29 @@
+.navigation {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+
+  & .nav-logo {
+    height: 100%;
+    width: 8rem;
+    padding: 25px;
+  }
+
+  & .nav-links-container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    & .nav-link {
+      text-decoration: none;
+      font-size: 2rem;
+      color: #626767;
+      padding: 10px 15px;
+      cursor: pointer;
+    }
+  }
+}
