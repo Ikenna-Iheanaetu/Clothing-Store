@@ -153,6 +153,7 @@ body {
   display: flex;
   flex-direction: column;
   width: 40rem;
+  margin: 3rem auto;
 }
 .sign-in-sign-up-container h2 {
   margin: 1rem 0;
@@ -205,10 +206,11 @@ body {
   display: flex;
   justify-content: space-between;
   margin: 3rem auto;
-  width: 90rem;
+  width: 120rem;
 }
 
 .button-container-auth {
   display: flex;
+  gap: 2rem;
   justify-content: space-between;
 }/*# sourceMappingURL=styles.css.map */
