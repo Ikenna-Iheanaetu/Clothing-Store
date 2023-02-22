@@ -1,9 +1,10 @@
-.sign-up-container{
+.sign-in-sign-up-container{
     display: flex;
     flex-direction: column;
-    width: 38rem;
+    width: 40rem;
 
         & h2{
             margin: 1rem 0;
+            font-size: 3rem;
         }
 }

@@ -149,13 +149,14 @@ body {
   color: black;
 }
 
-.sign-up-container {
+.sign-in-sign-up-container {
   display: flex;
   flex-direction: column;
-  width: 38rem;
+  width: 40rem;
 }
-.sign-up-container h2 {
+.sign-in-sign-up-container h2 {
   margin: 1rem 0;
+  font-size: 3rem;
 }
 
 .button-container {
@@ -198,4 +199,16 @@ body {
   background-color: black;
   color: white;
   border: none;
+}
+
+.auth-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem auto;
+  width: 90rem;
+}
+
+.button-container-auth {
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=styles.css.map */
